@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  --purple: #8a4fe8;
+  --light-purple: #843aff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: nunito, helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.gutter {
+  max-width: 2000px;
+  width: 100%;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.nav-bar-container {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  height: 70px;
+  align-items: center;
+  padding: 0 1%;
+  max-width: 2000px;
+  width: 100%;
+  background-color: var(--light-purple);
+}
+
+.nav-bar-container>div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav-bar-logo-container{
+  font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+.nav-bar-links-container {
+  display: flex;
+}
+
+.nav-bar-links-container a {
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 550;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.nav-bar-link-login {
+  color: white;
+}
+
+.nav-bar-link-start {
+  background-color: var(--purple);
+  color: var(--light-purple);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.search-tags-gutter {
+  max-width: 2000px;
+  width: 100%;
+  padding: 5% 2%;
+  background: var(--light-purple);
+  color: white !important;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.search-tags-container {
+  text-align: center;
+  margin: auto;
+}
+
+.search-tags-heading {
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 30px 0 0 0;
+}
+
+.search-tags-para {
+  font-weight: 550;
+  font-size: 17px;
+  margin: 0;
+  color: white;
+}
+
+.search-tags-form-container {
+  margin-top: 30px;
+}
+
+.search-tags-form {
+  height: 50px;
+  width: 100%;
+  max-width: 425px;
+  margin: auto;
+  position: relative;
+}
+
+.search-tags-form-input {
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  border: 1.5px solid rgb(81, 73, 73);
+  padding: 0 10px 0 30px;
+  font-size: 15px;
+  font-weight: 100;
+  color: #3b3b41;
+}
+
+.search-tags-form-input:focus {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.search-tags-form span {
+  position: absolute;
+  left: 5px;
+  top: 13px;
+  color: #8a4fe8;
+  fill: var(--light-purple)
+}
+
+.tags-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 425px;
+  margin: 20px auto 0 auto;
+  gap: 10px;
+}
+
+.tags-container>div {
+  padding: 4px 9px;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+.job-cards-container {
+  display: grid;
+  grid-template-columns: 80px calc(100% - 230px) 100px;
+  border:1px solid #00000047;
+  /* margin:10px 0; */
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: 10px auto;
+  align-items: center;
+  text-decoration: none;
+
+}
+
+.job-card-info-container {
+  display: flex;
+  /* border: 1px solid blue; */
+  gap: 15px;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.job-card-info-comp-post-spacer {
+  margin: 0 10px;
+}
+
+.job-card-info-comp-name-post-container>div {
+  font-weight: 600;
+  display: inline-block;
+}
+
+.job-card-info-salary-location-industry-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  gap: 10px;
+}
+
+.job-card-info-salary-location-industry-container>div {
+  /* border: 1px solid black;
+  padding: 1px 5px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border-radius: 15px; */
+
+  border: 1px solid black;
+  padding: 1px 5px;
+  display: flex;
+  align-items: center;
+  height: 25px;
+  border-radius: 15px;
+  font-size: 15px;
+
+}
+
+.job-card-info-salary-location-industry-container>div img {
+  width: 17px;
+  margin-right: 5px;
+}
+
+.job-card-info-salary {
+  /* padding:0 5px; */
+}
+
+.job-cart-logo-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 65px;
+  font-weight: 900;
+}
+.job-card-apply-container{
+      /* display: inline; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      background: var(--purple);
+      color: white;
+      font-weight: 800;
+      border-radius: 6px;
+}
