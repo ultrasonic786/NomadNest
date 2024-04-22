@@ -72,7 +72,7 @@ function Jobs() {
 
     return (
         <>
-            <div className="gutter search-tags-gutter">
+            <div className="search-tags-gutter">
                 <div className="search-tags-container">
                     <h1 className="search-tags-heading">
                         Browse remote jobs.

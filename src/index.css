@@ -18,6 +18,7 @@ body {
 .gutter {
   max-width: 2000px;
   width: 100%;
+  margin:auto;
 }
 
 .nav-bar-container {
@@ -26,8 +27,9 @@ body {
   height: 70px;
   align-items: center;
   padding: 0 1%;
-  max-width: 2000px;
-  width: 100%;
+  /* max-width: 2000px;
+  width: 100%; */
+  margin: auto;
   background-color: var(--light-purple);
 }
 
@@ -76,8 +78,8 @@ body {
 }
 
 .search-tags-gutter {
-  max-width: 2000px;
-  width: 100%;
+  /* max-width: 2000px;
+  width: 100%; */
   padding: 5% 2%;
   background: var(--light-purple);
   color: white !important;

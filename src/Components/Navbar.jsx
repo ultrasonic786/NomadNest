@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 
 function Navbar() {
   return (
-    <div className="gutter">
+    <div className="gutt">
 
     <div className="nav-bar-container">
         <div className="nav-bar-logo-container">
