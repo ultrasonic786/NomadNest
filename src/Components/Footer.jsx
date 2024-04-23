@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div className="footer-container">
             <code>
-                Made with ❤️ by Tanvi
+                Made with ❤️ by Shahid & Santosh
             </code>
         </div>
 
